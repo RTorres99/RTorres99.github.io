@@ -36,7 +36,7 @@ header, hgroup, menu, nav, section {
 }
 
 .video-mask {
-	border-radius: 22px;
+	border-radius:10px;
 	overflow: hidden;
 }
 

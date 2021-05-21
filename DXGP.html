@@ -6,7 +6,7 @@
 -->
 <html>
 <head>
-    <title>Graffiti Tower Defense</title>
+    <title>DirectX Graphics Project</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -19,8 +19,8 @@
 
         <!-- Header -->
         <header id="header">
-            <h1>Graffiti Tower Defense</h1>
-            <p>Custom C++ Engine</p>
+            <h1>DirectX Graphics Project</h1>
+            <p>C++</p>
         </header>
 
         <!-- Main -->
@@ -30,7 +30,7 @@
             <section id="content" class="main">
                 <div class="image main video-mask">
                     <video class="center" muted autoplay loop>
-                        <source src="videos/GTDAction.mp4" type="video/mp4" />
+                        <source src="videos/InteractableScene.mp4" type="video/mp4" />
                     </video>
                 </div>
                 <font size="+1">
@@ -39,12 +39,12 @@
 
                         <li>
                             <b>Duration:</b>
-                            Febuary 2021 - May 2021
+                            November 2020 - December 2020
                         </li>
 
                         <li>
                             <b>Team Size: </b>
-                            4
+                            1
                         </li>
                         <li>
                             <b>Platform:</b>
@@ -52,52 +52,47 @@
                         </li>
 
                         <li>
-                            <b>Engine:</b>
-                            Custom C++ Engine
+                            <b>Tool:</b>
+                            DirectX
                         </li>
-
                         <li>
                             <b>Type:</b>
-                            Academic Project
+                            Solo-Project
                         </li>
                     </ul>
 
                     <h2>Concept</h2>
                     <p style="padding-left:20px">
-                        Graffiti Tower Defense is a tower defense style game where the player is trying to protect their wall from the enemy Bloblets. 
-                        The player will need to buy, upgrade and defeat all of the enemies in each level in order to keep their wall in pristine condition!
+                        This project was made so I could practice low-level development within DirectX.
                     </p>
 
                     <h2>My Contribution</h2>
                     <ul style="padding-left:40px">
-
                         <li>
-                            Built an Input Manager to track per-key input from the player, support for tracking per-frame input or input over multple frames,
-                            and mouse position and action information.
+                            Loaded in several pre-made and personal FBX models, including a several planets, a space station, a spaceship, and a skybox to create a solar system scene
                         </li>
                         <li>
-                            Using this Input Manager, created a full Raycasting system to allow for direct interation between the player and the 3D game world.
+                            Used 3D math in order to make the planets to orbit around a central sun, as well as spin on their own axis
                         </li>
                         <li>
-                            Utilized the DirectXTK Audio Engine to make an audio system that can play, pause, loop, edit and fade sound effects and
-                            music tracks.
-                        </li>
-                        <li>
-                            Created enemy steering AI with allowed enemies to curve around corners and their nodes,
-                            rather than moving to exact node positions.
-                        </li>
-                        <li>
-                            Created an FBX Exporter that can take in an FBX file give a binary text file to import models, textures and animations.
-                        </li>
-                        <li>
-                            Built multiple towers, including a base tower and it's upgrades with unique gameplay mechanics.
-                        </li>
-                        <li>
-                            Created the tower "shake to reload" mechanic.
+                            Used HLSL shaders to create spectral reflections, alpha transparency, alpha blending, and glowing emission textures
                         </li>
 
                         <li>
-                            Tracked and organized all enemy, tower, and wave data to properly balance all acpects of the game.
+                            Created a controllable FPS-style camera to move about the scene
+                        </li>
+                        <li>
+                            Lighting, including Directional, Point, Spotlight, and Ambient
+                        </li>
+                        <li>
+                            Made a second viewport in order to provide a camera-fixed minimap in the corner
+                        </li>
+                        <li>
+                            Utilized CMake to generate the project files for editing and debugging
+                        </li>
+
+                        <li>
+                            Tracked and organized all enemy, tower, and wave data to properly balance all acpects of the game
                         </li>
                     </ul>
                 </font>
